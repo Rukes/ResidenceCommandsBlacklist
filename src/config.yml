@@ -1,0 +1,1496 @@
+BludisteSunday: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /spawn
+    - /warp
+    - /home
+MazeEvent: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+  execute-commands:
+    - fly off
+    - god off
+waterevent: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+Eventpark: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /spawn
+    - /warp
+    - /home
+    - /sethome
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /gtempban
+    - /ec
+    - /gban
+    - /gunban
+    - /jump
+  execute-commands:
+    - fly off
+    - god off
+bellstrom: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /warp
+  execute-commands:
+  - fly off
+  - god off
+GriefEvent: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /spawn
+    - /msg
+    - /r
+  execute-commands:
+    - fly off
+    - god off
+GriefEvent.griefzone: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /spawn
+  execute-commands:
+    - fly off
+    - god off
+spleef: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r
+  execute-commands:
+    - fly off
+    - god off
+spleef.vstup: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r
+    - /spawn
+  execute-commands:
+    - fly off
+    - god off
+spleef.vystup: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r
+    - /spawn
+  execute-commands:
+    - warp spleef
+EuropaPark: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r
+    - /spawn
+    - /warp
+    - /home
+  execute-commands:
+    - fly off
+    - god off
+cijetoeventt: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /warp
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+tojejednoo: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+pyramid_wp: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+dancefloor: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /tpa
+    - /r
+    - /msg
+    - /tpahere
+    - /marry
+    - /w
+    - /home
+    - /warp
+    - /tell
+    - /spawn
+HeadQuarter:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /spawn
+    - /back
+    - /r
+    - /msg
+    - /v
+    - /home
+    - /warp
+    - /tp
+    - /ec
+    - /pt
+    - /gban
+    - /gunban
+    - /gtempban
+    - /whois
+    - /gkick
+    - /lm
+  execute-commands:
+    - fly off
+    - god off
+HeadQuarter.JailHQ:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /spawn
+    - /back
+    - /jail
+    - /unjail
+    - /r
+    - /msg
+    - /v
+    - /home
+    - /warp
+    - /tp
+    - /ec
+    - /pt
+    - /gban
+    - /gunban
+    - /gtempban
+    - /whois
+    - /gkick
+    - /lm
+HeadQuarter.JailHQ.vyslechovka:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r
+  execute-commands:
+    - fly off
+    - god off
+SC_spawn.jail:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /spawn
+  execute-commands:
+    - fly off
+    - god off
+rozcestnik:
+  blacklist-commands:
+    - /sethome
+    - /esetwarp
+    - /createhome
+    - /createwarp
+    - /esethome
+    - /setwarp
+    - /ecreatewarp
+    - /ecreatehome
+SC_spawn.zazemi:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /spawn
+SC_spawn.PvP:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r
+  execute-commands:
+    - fly off
+    - god off
+SC_spawn.PvP.stred:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /spawn
+    - /msg
+    - /r
+  execute-commands:
+    - fly off
+    - god off
+SC_spawn.PvP.void:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /msg
+  execute-commands:
+    - fly off
+    - god off   
+SC_spawn.PvP.staff: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /warp 
+SC_spawn.PvP.jail:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /spawn      
+  execute-commands:
+    - fly off
+    - god off
+HeadQuarter.Management:
+  blacklist-commands:
+    - '*' 
+HeadQuarter.Moderators:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /spawn
+    - /back
+    - /r
+    - /msg
+    - /v
+    - /home
+    - /warp
+    - /tp
+    - /ec
+    - /pt
+    - /gban
+    - /gunban
+    - /gtempban
+    - /whois
+    - /gkick
+    - /lm
+HeadQuarter.Helpers:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /spawn
+    - /back
+    - /r
+    - /msg
+    - /v
+    - /home
+    - /warp
+    - /tp
+    - /ec
+    - /pt
+    - /gban
+    - /gunban
+    - /gtempban
+    - /whois
+    - /gkick
+    - /lm
+frozenevent: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+Gold_event: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+SC_spawn.fly:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /spawn
+    - /msg
+    - /r
+SC_spawn.fly2:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /spawn
+    - /msg
+    - /r
+newtreeevent: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /god
+    - /jump
+    - /tp
+  execute-commands:
+    - fly off
+BlueEvents: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+HdK_Silo:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r
+  execute-commands:
+    - fly off
+    - god off
+HdK_Silo.pvp:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r
+  execute-commands:
+    - fly off
+    - god off
+HdK_Silo.pvp.exit:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r
+  execute-commands:
+     - warp pvp2
+HdK_Silo.spawn:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r
+    - /spawn
+novykulievent: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+NejtezsiEventNaSC: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+    - /god
+  execute-commands:
+    - fly off
+KULIEVENT: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+KNS.PVP:
+  blacklist-commands:
+    - /heal
+    - /god
+    - /fly
+    - /tpahere
+    - /setwarp
+    - /sethome	
+  execute-commands:
+    - fly off
+    - god off
+TNT_1:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /tr leave      
+  execute-commands:
+    - pp clear
+    - pet hide 
+TNT_2:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /tr leave      
+  execute-commands:
+    - pp clear
+    - pet hide  
+TNT_3:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /tr leave      
+  execute-commands:
+    - pp clear
+    - pet hide 
+CraftCon.PVP:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r      
+  execute-commands:
+    - god off
+    - fly off
+CraftCon.nadvori:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r
+    - /warp
+    - /home
+  execute-commands:
+   - fly off
+CraftCon.prehazovana:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r      
+  execute-commands:
+    - fly off    
+CraftCon.bludiste:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r
+    - /warp
+CraftCon.atrakce:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r
+    - /warp
+    - /home      
+  execute-commands:
+    - god off
+    - fly off   
+CraftCon.atrakce.jama1:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r     
+  execute-commands:
+    - god off
+    - fly off
+CraftCon.atrakce.jama2:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r     
+  execute-commands:
+    - god off
+    - fly off
+CraftCon.atrakce.jama3:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r     
+  execute-commands:
+    - god off
+    - fly off
+CraftCon.atrakce.jama4:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r     
+  execute-commands:
+    - god off
+    - fly off
+    - warp nicota
+CraftCon.event:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /msg
+    - /r
+    - /lobby
+    - /spawn     
+  execute-commands:
+    - god off
+    - fly off
+Podkopavacka: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+  execute-commands:
+    - fly off
+    - god off
+MondayParty_event: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+Blockevent: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+    - /god
+  execute-commands:
+    - fly off
+    - god off
+SC_tribuna:
+  blacklist-commands:
+    - /fly
+    - /efly
+  allowed-commands:
+    - '*'     
+  execute-commands:
+    - fly off
+Blackie_Land1: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+Chrismas_Event: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+KNBD.PVP:
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /tphere
+  execute-commands:
+    - fly off
+    - god off
+LootEvent:
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /gtempban
+    - /ec
+    - /spawn
+    - /home
+    - /gban
+    - /gunban
+    - /jump
+    - /tphere
+  execute-commands:
+    - fly off
+    - god off
+GlassEvent: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+SC_spawn.tpnopvp:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /warp     
+  execute-commands:
+    - warp pvpzone
+SC_spawn.PvP.tppvp:
+  blacklist-commands:
+    - '*'
+  allowed-commands:
+    - /warp     
+  execute-commands:
+    - warp nopvpzone
+bkevent: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+KNH.PVP: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+BroPVP.PVP: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+MXE: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+kevent1: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /spawn
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+ClayEvent: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /spawn
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+LucoEvent: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+LucoEvent.koniec: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+LucoEvent.VstupnaMiestnost: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+LucoEventy: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+Gutryx_eventy_1: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+DerehoPvP.derehopvpboj: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+LKE: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /kick
+    - /jump
+    - /clear
+  execute-commands:
+    - fly off
+    - god off
+LKE.spawn: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /kick
+    - /jump
+    - /heal
+    - /clear
+  execute-commands:
+    - fly off
+    - god off
+    - heal
+LKE.floor: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /kick
+    - /jump
+  execute-commands:
+    - fly off
+    - god off
+    - home
+    - home home
+LKE.cp1: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /kick
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+LKE.cp2: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /kick
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+LKE.cp3: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /kick
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+LKE.cp4: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /kick
+    - /jump
+    - /sethome
+  execute-commands:
+    - fly off
+    - god off
+DereEvents: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - /fly
+    - /efly
+  allowed-commands:
+    - '*'
+  execute-commands:
+    - fly off
+halloweenrun: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /kick
+    - /jump
+    - /sethome
+  execute-commands:
+    - heal
+    - fly off
+    - god off
+halloweenrun.zaciatok: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /kick
+    - /jump
+    - /sethome
+  execute-commands:
+    - heal
+    - fly off
+    - god off
+empe: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /kick
+    - /jump
+    - /clear
+  execute-commands:
+    - fly off
+Christmas_Nyan: # Name of Residence
+  blacklist-commands:  # List of disallow commands
+    - '*'
+  allowed-commands:
+    - /vanish
+    - /r
+    - /msg
+    - /res
+    - /invsee
+    - /v
+    - /tell
+    - /w
+    - /home
+    - /gtempban
+    - /ec
+    - /spawn
+    - /gban
+    - /gunban
+    - /kick
+    - /jump
+    - /clear
+  execute-commands:
+    - fly off

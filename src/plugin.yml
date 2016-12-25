@@ -1,0 +1,17 @@
+version: 1.0
+main: eu.rukes.rescmdsblacklist.Main
+name: ResCmdsBlacklist
+author: Rukes
+description: ResCmdsBlacklist - Commands inside the Residence can be disallow.
+
+permissions:
+    rescmdsblacklist.admin.bypass:
+        description: Pro hrace s timto opravnenim neplati blacklist.
+        default: op
+    rescmdsblacklist.admin:
+        description: Prikazy addonu.
+        default: op
+
+commands:
+    rescmdsblacklist:
+        permission: rescmdsblacklist.admin
